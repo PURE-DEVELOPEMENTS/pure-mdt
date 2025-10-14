@@ -1,6 +1,6 @@
 # PURE-MDT
 
-A FiveM resource for managing police MDT (Mobile Data Terminal) operations. This script provides client and server functionality for police roleplay servers, including database integration and configuration options.
+A REDM resource for managing police MDT (Mobile Data Terminal) operations. This script provides client and server functionality for police roleplay servers, including database integration and configuration options.
 
 ## Features
 - Police MDT system for REDM
