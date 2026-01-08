@@ -6,7 +6,10 @@ description 'RSG Pure MDT'
 version '1.0.0'
 author 'DIGITALEN'
 
-shared_script 'config.lua'
+shared_scripts {
+    '@ox_lib/init.lua',
+    'config.lua'
+}
 
 client_scripts {
     'client/main.lua'
@@ -17,4 +20,7 @@ server_scripts {
     'server/main.lua'
 }
 
-dependency 'rsg-core'
+dependencies {
+    'rsg-core',
+    'ox_lib'
+}
